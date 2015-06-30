@@ -5,10 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Calcula Tu Poder</title>
 		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 		<script src="js/vendor/modernizr.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	</head>
 	<body>
-
 		<div class="row">
 			<div class="large-12 columns">
 				<h1>Calcula Tu Poder</h1>
@@ -25,67 +30,47 @@
 
 		<div class="row">
 			<div class="large-8 medium-8 columns">
-
-				<h5>We bet you&rsquo;ll need a form somewhere:</h5>
 				<form>
 					<div class="row">
-						<div class="large-12 columns">
-							<label>Input Label</label>
-							<input type="text" placeholder="large-12.columns" />
-						</div>
-					</div>
-					<div class="row">
-						<div class="large-4 medium-4 columns">
-							<label>Input Label</label>
-							<input type="text" placeholder="large-4.columns" />
-						</div>
-						<div class="large-4 medium-4 columns">
-							<label>Input Label</label>
-							<input type="text" placeholder="large-4.columns" />
-						</div>
-						<div class="large-4 medium-4 columns">
-							<div class="row collapse">
-								<label>Input Label</label>
-								<div class="small-9 columns">
-									<input type="text" placeholder="small-9.columns" />
-								</div>
-								<div class="small-3 columns">
-									<span class="postfix">.com</span>
-								</div>
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/tropa1.php"); ?>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="large-12 columns">
-							<label>Select Box</label>
-							<select>
-								<option value="husker">Husker</option>
-								<option value="starbuck">Starbuck</option>
-								<option value="hotdog">Hot Dog</option>
-								<option value="apollo">Apollo</option>
-							</select>
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/tropa2.php"); ?>
+							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="large-6 medium-6 columns">
-							<label>Choose Your Favorite</label>
-							<input type="radio" name="pokemon" value="Red" id="pokemonRed">
-							<label for="pokemonRed">Radio 1</label>
-							<input type="radio" name="pokemon" value="Blue" id="pokemonBlue">
-							<label for="pokemonBlue">Radio 2</label>
-						</div>
-						<div class="large-6 medium-6 columns">
-							<label>Check these out</label>
-							<input id="checkbox1" type="checkbox">
-							<label for="checkbox1">Checkbox 1</label>
-							<input id="checkbox2" type="checkbox">
-							<label for="checkbox2">Checkbox 2</label>
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/tropa3.php"); ?>
+							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="large-12 columns">
-							<label>Textarea Label</label>
-							<textarea placeholder="small-12.columns"></textarea>
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/tropa4.php"); ?>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/tropa5.php"); ?>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
+								<?php include("pages/tropas/muro.php"); ?>
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -101,8 +86,12 @@
 			</div>
 
 			<div class="large-4 medium-4 columns">
-				<div class="panel">PUBLICIDAD</div>
-				<div class="panel">PUBLICIDAD</div>
+				<div class="panel">
+					PUBLICIDAD
+				</div>
+				<div class="panel">
+					PUBLICIDAD
+				</div>
 			</div>
 		</div>
 
