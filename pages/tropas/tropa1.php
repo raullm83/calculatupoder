@@ -3,7 +3,7 @@
 		<div class="large-3 columns">Porteadores</div>
 		<div class="large-9 columns">
 			<div class="row">
-				<div class="large-3 columns"><input placeholder="50" power="1"/></div>
+				<div class="large-3 columns"><input placeholder="50" power="1" onchange=""/></div>
 				<div class="large-3 columns"><input placeholder="100" power="1"/></div>
 				<div class="large-3 columns"><input placeholder="200" power="1"/></div>
 				<div class="large-3 columns"><input placeholder="300" power="1"/></div>
