@@ -86,7 +86,7 @@
 							<br/>
 						</div>
 						<div class="large-6 columns">
-							<a href="#" class="medium secondary button right">Limpiar</a>
+							<a href="#" class="medium secondary button right" onclick="limpiarFormulario()">Limpiar</a>
 						</div>
 					</div>
 				</form>
@@ -103,9 +103,7 @@
 		</div>
 		<div class="row">
 			<div class="large-12 columns footer">
-        Copyright ©
-        <?php echo date("Y"); ?>
-        calculatupoder.easy.es
+        Copyright © <?php echo date("Y"); ?> calculatupoder.esy.es
     </div>
 		</div>
 
@@ -114,13 +112,19 @@
 		<script>
 			$(document).foundation();
 			
-			function calcularPoderT11() {
+			function calcularPoder(tipo, idTotal) {
 				var totalt11 = 0;
-				$.each($("input[subtipo='1']"), function(key, value){
+				$.each($("input[tipo='"+ tipo +"']"), function(key, value){
 					totalt11 = totalt11 + (value.attributes[0].value.replace(".", "") * value.attributes[1].value * value.value);
 				});
 				
-				$("#totalT11").text("Total: " + totalt11.toFixed(3));
+				$("#"+idTotal+"").text("Total: " + totalt11);
+			}
+			
+			function limpiarFormulario() {
+				$.each($("input[power!='']"), function(key, value){
+					value.value = "";
+				});
 			}
 		</script>
 	</body>
