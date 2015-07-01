@@ -4,14 +4,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Calcula Tu Poder</title>
-		<link rel="stylesheet" href="css/foundation.css" />
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-		<link rel="stylesheet" href="css/style.css" />
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<script src="js/vendor/modernizr.js"></script>
+		<link rel="stylesheet" href="css/foundation.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/style.css" />
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/vendor/modernizr.js"></script>
 		<script src="js/calculatupoder.min-1.0.js"></script>
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/foundation.min.js"></script>
