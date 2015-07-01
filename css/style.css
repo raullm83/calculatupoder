@@ -1,7 +1,6 @@
 .padding-none {
 	padding: 0em 1em 0em 1em;
 }
-
 .footer {
 	color: #4e5766;
 	padding: 8px 0px 0px 0px;
@@ -10,3 +9,6 @@
 	line-height: normal;
 	font-size: 0.80em
 }
+.error-validacion {
+	border: 1px solid red !important;
+} 
