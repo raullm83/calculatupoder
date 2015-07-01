@@ -1,3 +1,12 @@
 .padding-none {
-	padding : 0em 1em 0em 1em;
+	padding: 0em 1em 0em 1em;
+}
+
+.footer {
+	color: #4e5766;
+	padding: 8px 0px 0px 0px;
+	margin: 0px auto;
+	text-align: center;
+	line-height: normal;
+	font-size: 0.80em
 }

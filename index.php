@@ -69,6 +69,13 @@
 					<div class="row">
 						<div data-role="main" class="ui-content large-12 columns padding-none">
 							<div data-role="collapsible">
+								<?php include("pages/tropas/tropaTactica.php"); ?>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div data-role="main" class="ui-content large-12 columns padding-none">
+							<div data-role="collapsible">
 								<?php include("pages/tropas/muro.php"); ?>
 							</div>
 						</div>
@@ -94,11 +101,27 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="large-12 columns footer">
+        Copyright ©
+        <?php echo date("Y"); ?>
+        calculatupoder.easy.es
+    </div>
+		</div>
 
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
+			
+			function calcularPoderT11() {
+				var totalt11 = 0;
+				$.each($("input[subtipo='1']"), function(key, value){
+					totalt11 = totalt11 + (value.attributes[0].value.replace(".", "") * value.attributes[1].value * value.value);
+				});
+				
+				$("#totalT11").text("Total: " + totalt11.toFixed(3));
+			}
 		</script>
 	</body>
 </html>

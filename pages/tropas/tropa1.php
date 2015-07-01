@@ -3,19 +3,19 @@
 		<div class="large-3 columns">Porteadores</div>
 		<div class="large-9 columns">
 			<div class="row">
-				<div class="large-3 columns"><input placeholder="50" power="1" onchange=""/></div>
-				<div class="large-3 columns"><input placeholder="100" power="1"/></div>
-				<div class="large-3 columns"><input placeholder="200" power="1"/></div>
-				<div class="large-3 columns"><input placeholder="300" power="1"/></div>
+				<div class="large-3 columns"><input placeholder="50" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
+				<div class="large-3 columns"><input placeholder="100" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
+				<div class="large-3 columns"><input placeholder="200" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
+				<div class="large-3 columns"><input placeholder="300" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
 			</div>
 			<div class="row">
-				<div class="large-3 columns"><input placeholder="500" power="1"/></div>
-				<div class="large-3 columns"><input placeholder="1.000" power="1"/></div>
-				<div class="large-3 columns"><input placeholder="10.000" power="1"/></div>
+				<div class="large-3 columns"><input placeholder="500" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
+				<div class="large-3 columns"><input placeholder="1.000" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
+				<div class="large-3 columns"><input placeholder="10.000" power="1" tipo="1" subtipo="1" onchange="calcularPoderT11()"/></div>
 				<div class="large-3 columns"><label>&nbsp;</label></div>
 			</div>
 			<div class="row">
-				<div class="large-12 columns"><label>Total:</label>&nbsp;<label>10.000</label></div>
+				<div class="large-12 columns"><label id="totalT11">Total: 0</label></div>
 			</div>
 		</div>
 	</div>
