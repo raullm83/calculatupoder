@@ -130,27 +130,27 @@
 	</div>
 	<div class="row">
 		<div class="large-3 columns">
-			<input placeholder="50" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="50" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
-			<input placeholder="100" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="100" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
-			<input placeholder="200" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="200" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
-			<input placeholder="300" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="300" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 	</div>
 	<div class="row">
 		<div class="large-3 columns">
-			<input placeholder="500" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="500" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
-			<input placeholder="1.000" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="1.000" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
-			<input placeholder="10.000" power="0" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
+			<input placeholder="10.000" power="4" tipo="4" onblur="calcularPoder(4, 'valorTotalT14')"/>
 		</div>
 		<div class="large-3 columns">
 			&nbsp;
